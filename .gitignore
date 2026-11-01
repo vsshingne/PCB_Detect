@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+frontend/dist/
+npm-debug.log*
+
+# Model weights and generated predictions
+*.pt
+*.pth
+*.onnx
+*.engine
+*.ckpt
+runs/
+results/
+*.annotated.*
